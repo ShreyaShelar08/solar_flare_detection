@@ -1,0 +1,24 @@
+# Datasets (Prevent pushing large CSV data files)
+*.csv
+*.xlsx
+*.parquet
+
+# Python Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and Editor configs
+.vscode/
+.idea/
+.DS_Store
+
+# Local application logs and run flags
+*.log
+.system_generated/
