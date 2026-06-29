@@ -1,0 +1,16 @@
+{
+  "best_threshold": 0.47,
+  "tss": 0.6693,
+  "hss": 0.2913,
+  "precursor_window": 180,
+  "zscore_thresh": 3.0,
+  "count_thresh_percentile": 95,
+  "count_thresh_value": 22.0,
+  "window_size": 60,
+  "features": [
+    "counts_clean",
+    "rolling_mean",
+    "rolling_std",
+    "zscore"
+  ]
+}
